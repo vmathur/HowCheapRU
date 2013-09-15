@@ -1,0 +1,148 @@
+<TableLayout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Comment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF"
+    android:stretchColumns="*" >
+    
+    <TableRow
+        android:id="@+id/tableRow0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="How cheap are you?" />
+
+        <EditText
+            android:id="@+id/editTextComment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:paddingTop="20dp" />
+            
+     </TableRow>
+    
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textViewBill"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Bill"
+            android:textSize="30dp" />
+        
+        <EditText
+            android:id="@+id/editTextEnterBillAmount"
+            style="@style/AppTheme"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:inputType="numberDecimal"
+            android:textSize="25dp" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/textViewTipPercent "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tip %"
+            android:textSize="30dp" />
+
+        <EditText
+            android:id="@+id/editTextTipPercent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:background="#BBB"
+            android:clickable="false"
+            android:focusable="false"
+            android:inputType="numberDecimal"
+            android:longClickable="false"
+            android:textSize="25dp" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/textviewTip$"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tip $"
+            android:textSize="30dp" />
+
+        <EditText
+            android:id="@+id/editTextTip$"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:background="#BBB"
+            android:clickable="false"
+            android:focusable="false"
+            android:inputType="numberDecimal"
+            android:longClickable="false"
+            android:textSize="25sp" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/textViewBillTotal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Bill_Total"
+            android:textSize="30dp" />
+
+        <EditText
+            android:id="@+id/editTextBillTotal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#BBB"
+            android:clickable="false"
+            android:focusable="false"
+            android:inputType="numberDecimal"
+            android:longClickable="false"
+            android:textSize="25sp" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <SeekBar
+            android:id="@+id/seekBarTip"
+            android:layout_width="100dp"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:id="@+id/saveButton"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:shadowColor="@android:color/darker_gray"
+            android:text="Save" />
+
+    </TableRow>
+
+</TableLayout>

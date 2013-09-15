@@ -1,0 +1,7 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item android:id="@+id/Clear" android:enabled="true" android:title="Clear" android:visible="true"></item>
+    <item android:id="@+id/showAllTips" android:title="Show All Tips" android:enabled="true" android:visible="true"></item>
+    <item android:id="@+id/showAverage" android:enabled="true" android:title="Show Average" android:visible="true"></item>
+    
+</menu>
